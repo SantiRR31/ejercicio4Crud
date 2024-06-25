@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid darkcyan;
+}
+
+th{
+    background-color: darkcyan;
+    color: white;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid darkcyan;
+}
+
+tr:nth-child(odd){
+    background-color: bisque;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion{
+    width: 40px;
+}
