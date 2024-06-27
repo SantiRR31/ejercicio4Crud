@@ -7,22 +7,22 @@
 table{
     width: 80%;
     border-collapse: collapse;
-    border: 3px solid darkcyan;
+    border: 3px solid rgb(10, 121, 174);
 }
 
 th{
-    background-color: darkcyan;
+    background-color: rgb(10, 121, 174);
     color: white;
 }
 
 td{
     padding: 10px;
     text-align: center;
-    border: 1px solid darkcyan;
+    border: 1px solid rgb(10, 121, 174);
 }
 
 tr:nth-child(odd){
-    background-color: bisque;
+    background-color: rgb(195, 227, 253);
 }
 
 .contenedor{
